@@ -1,0 +1,35 @@
+# Development files
+node_modules/
+.DS_Store
+*.log
+npm-debug.log*
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Git
+.git/
+.gitignore
+
+# Documentation (keep README.md and QUICK_START.md)
+LAUNCH_READY.md
+ARCHITECTURE.md
+
+# Development scripts
+install.sh
+scripts/
+
+# Test files
+test/
+tests/
+*.test.js
+
+# Coverage
+coverage/
+
+# Environment
+.env
+.env.local

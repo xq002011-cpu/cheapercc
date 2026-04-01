@@ -1,0 +1,62 @@
+{
+  "name": "cheapercc",
+  "version": "1.0.0",
+  "description": "Cheaper Claude Code Alternative - Access 100+ LLMs from one CLI. Open source, multi-provider, 95% cost savings.",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "cheapercc": "bin/ccboss.js",
+    "cheaper": "bin/ccboss.js",
+    "cc": "bin/ccboss.js"
+  },
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "setup": "node src/index.js setup",
+    "postinstall": "echo '\n✅ cheaperCC installed! Run \"cc setup\" to get started.\n'",
+    "prepublishOnly": "echo 'Ready to publish to npm'",
+    "link": "npm link",
+    "unlink": "npm unlink -g"
+  },
+  "keywords": [
+    "ai",
+    "agent",
+    "cli",
+    "llm",
+    "claude",
+    "gpt",
+    "skillboss",
+    "cheaper",
+    "cheapercc",
+    "coding-assistant",
+    "multi-llm"
+  ],
+  "author": "cheaperCC Team",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^12.0.0",
+    "inquirer": "^9.2.15",
+    "chalk": "^5.3.0",
+    "ora": "^8.0.1",
+    "axios": "^1.6.7",
+    "conf": "^12.0.0",
+    "marked": "^12.0.0",
+    "marked-terminal": "^7.0.0",
+    "boxen": "^7.1.1",
+    "gradient-string": "^2.0.2",
+    "figlet": "^1.7.0",
+    "cli-table3": "^0.6.3"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xq002011-cpu/cheapercc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/xq002011-cpu/cheapercc/issues"
+  },
+  "homepage": "https://github.com/xq002011-cpu/cheapercc#readme"
+}
