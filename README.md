@@ -1,8 +1,8 @@
 # CheaperCC
 
-**Cheaper Claude Code Alternative**
+**Open-source Multi-LLM CLI**
 
-Open-source CLI for 100+ LLMs. **The key difference? You can switch the underlying model.** Same developer experience, 95% cost savings, zero vendor lock-in.
+Switch between 100+ AI models anytime. Use cheap models for simple tasks, smart models for complex ones. 95% cost savings, zero vendor lock-in.
 
 ---
 
@@ -24,14 +24,17 @@ cc                    # Interactive chat
 
 ## 💡 Why CheaperCC?
 
-| Feature | Claude Code | CheaperCC |
-|---------|-------------|-----------|
-| **Models** | Claude only | 100+ models (Claude, GPT-5, DeepSeek, Gemini...) |
-| **Cost** | $20/month fixed | Pay-per-use (95% cheaper with DeepSeek) |
-| **Provider Lock-in** | Yes | No |
-| **Chinese LLMs** | ❌ | ✅ (12 providers) |
-| **Video/Audio** | ❌ | ✅ (via SkillBoss) |
-| **Open Source** | ❌ | ✅ MIT |
+**Model Freedom**
+- 🔓 Switch between 100+ models anytime
+- 💰 Use cheap models ($0.14/1M) for simple tasks
+- 🧠 Use smart models ($3/1M) for complex tasks
+- 🌐 Access Chinese LLMs (Kimi, DeepSeek, MiniMax) + Western (GPT, Claude, Gemini)
+
+**One API Key, Everything**
+- ⚡ 18 providers, 100+ models
+- 🎨 Beyond text: Images (Imagen-4), Video (Sora), Audio (ElevenLabs)
+- 📦 Open source MIT license
+- 🚀 Pay-per-use, no subscriptions
 
 ---
 
@@ -48,14 +51,16 @@ Get your key: https://skillboss.co/console
 
 ---
 
-## 💰 Cost Comparison
+## 💰 Cost Examples
 
-| Task | Claude Code | CheaperCC (DeepSeek) | Savings |
-|------|-------------|---------------------|---------|
-| 1M input tokens | $3.00 | $0.14 | **95%** |
-| 1M output tokens | $15.00 | $0.28 | **98%** |
+| Model | Input (1M tokens) | Output (1M tokens) | Best For |
+|-------|-------------------|-------------------|----------|
+| **Kimi** | $0.07 | $0.14 | Chinese content, cheap tasks |
+| **DeepSeek** | $0.14 | $0.28 | Code, debugging, refactoring |
+| **GPT-4** | $2.50 | $10.00 | General tasks |
+| **Claude** | $3.00 | $15.00 | Complex reasoning, architecture |
 
-Use expensive models when you need them. Use cheap models when you don't.
+**Use expensive models when you need them. Use cheap models when you don't.**
 
 ---
 
@@ -210,4 +215,4 @@ Contributions welcome! Please open an issue or PR.
 
 ---
 
-**TL;DR**: CheaperCC is a Claude Code alternative that works with 100+ LLMs, costs 95% less (with cheap models), and is open source. Powered by SkillBoss for seamless multi-model access.
+**TL;DR**: CheaperCC is an open-source multi-LLM CLI. Switch between 100+ models (Kimi, DeepSeek, GPT, Claude, Gemini), save 95% on costs, zero vendor lock-in. Powered by SkillBoss.
