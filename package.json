@@ -1,7 +1,7 @@
 {
   "name": "cheapercc",
   "version": "1.0.0",
-  "description": "Cheaper Claude Code Alternative - Access 100+ LLMs from one CLI. Open source, multi-provider, 95% cost savings.",
+  "description": "Open-source multi-LLM CLI - Switch between 100+ AI models anytime. Zero vendor lock-in, 95% cost savings.",
   "type": "module",
   "main": "dist/index.js",
   "bin": {

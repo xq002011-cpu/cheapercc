@@ -42,8 +42,8 @@ function showBanner() {
 
   console.log(
     boxen(
-      chalk.white.bold('Cheaper Claude Code Alternative\n') +
-      chalk.gray('100+ LLMs, One CLI, 95% Cost Savings'),
+      chalk.white.bold('Multi-LLM CLI\n') +
+      chalk.gray('Switch Models Anytime • 100+ Models • 95% Savings'),
       {
         padding: 1,
         margin: 1,
